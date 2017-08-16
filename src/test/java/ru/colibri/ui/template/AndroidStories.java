@@ -35,7 +35,7 @@ public class AndroidStories extends AbstractStories {
     public AndroidStories() {
         super();
         System.setProperty(ColibriStartFlags.USER, "at01");
-        System.setProperty(ColibriStartFlags.PLATFORM, "android5");
+        System.setProperty(ColibriStartFlags.PLATFORM, "htcm8");
         System.setProperty(ColibriStartFlags.TEST_TYPE, "smoke");
         System.setProperty(ColibriStartFlags.BUILD_VERSION, "8.4.0.7");
     }
