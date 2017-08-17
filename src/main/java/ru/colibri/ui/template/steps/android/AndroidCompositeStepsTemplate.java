@@ -14,16 +14,16 @@ import ru.yandex.qatools.allure.annotations.Step;
 @Qualifier("android")
 public class AndroidCompositeStepsTemplate {
 
-    private final String loginFieldName = "Поле ввода логина";
-    private final String passwordFieldName = "Поле ввода Пароля";
-    private final String submitButtonName = "Вход";
+    private final String loginFieldName = "email";
+    private final String passwordFieldName = "password";
+    private final String submitButtonName = "Login";
     @Autowired
     private ButtonsSteps buttonsSteps;
     @Autowired
     private TextFieldSteps textFieldSteps;
 
     @Step
-    @When("войти с логином \"$login\" и паролем \"$password\"")
+    @When("1войти с логином \"$login\" и паролем \"$password\"")
     public void loginToAppWithPassword(@Named("$login") String login, @Named("$password") String password) {
         textFieldSteps.sendKeys(loginFieldName, login);
         textFieldSteps.sendKeys(passwordFieldName, password);
