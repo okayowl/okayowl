@@ -1,0 +1,28 @@
+{
+  "capabilities": [
+    {
+      "browserName": "",
+      "udid": "LE67A06210310748",
+      "deviceName": "le_x6",
+      "version": "6.0.1",
+      "maxInstances": 5,
+      "platformName": "ANDROID"
+    }
+  ],
+  "configuration": {
+    "cleanUpCycle": 2000,
+    "timeout": 30000,
+    "hub": "http://10.0.200.45/grid/register/",
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "url": "http://127.0.0.1:4723/wd/hub",
+    "remoteHost": "http://127.0.0.1:4723",
+    "host": "127.0.0.1",
+    "port": 4723,
+    "maxSession": 5,
+    "register": true,
+    "registerCycle": 5000,
+    "hubPort": 5566,
+    "hubHost": "10.0.200.45",
+    "role": "node"
+  }
+}
