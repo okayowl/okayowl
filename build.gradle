@@ -36,7 +36,7 @@ allure {
 }
 
 dependencies {
-    compile 'ru.colibri:colibri-ui:1.0.7-rc-3'
+    compile 'ru.colibri:colibri-ui:1.0.7-rc-4'
 }
 
 distributions {
