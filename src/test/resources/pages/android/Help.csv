@@ -1,0 +1,4 @@
+"Help","",".ui.activity.help.HelpActivity","","",""
+"Name in story","Content-desc","ResourceId","Text","XPath","Flag is specific"
+"ContactUsButton","","view_contact_us","","",""
+"DescriptionField","","contact_fragment_description","","",""
