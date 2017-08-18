@@ -10,8 +10,10 @@ Scenario: Description (iOS) / Describe the issue you are having (Android)
 Given приложение запущено
 When войти с логином "#userName#" и паролем "#password#"
 Then загружена страница "Booking"
+When ожидаем 7 секунд
 When выполнено нажатие на "MenuButton"
 Then на экране есть "HelpItemMenu"
 When выполнено нажатие на "HelpItemMenu"
 Then загружена страница "Help"
-And на экране есть "DescriptionField"
+When выполнено нажатие на "ContactUsButton"
+Then на экране есть "DescriptionField"
