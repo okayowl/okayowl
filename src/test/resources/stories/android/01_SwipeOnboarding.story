@@ -1,6 +1,5 @@
 Meta:
 @regressCycle
-@debugMode
 
 Narrative:
 Open app and swipe onboarding cards
