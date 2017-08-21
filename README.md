@@ -114,6 +114,14 @@ pkill -f selenium
 pkill -f appium
 ```
 
+# Генерация отчета allure
+Вначале cd в корень проекта
+```
+allure generate target/allure-results -clean
+ПУТЬ_ДО_КОРНЯ_ПРОЕКТА/build/reports/allure-report/index.html#
+```
+
+
 # Локальный запуск в IDE
 
 1. Запускаем appium в консоли. `appium`
