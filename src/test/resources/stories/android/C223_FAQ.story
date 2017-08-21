@@ -1,6 +1,5 @@
 Meta:
 @smokeCycle
-@debugMode
 
 Narrative:
 Open app, skipp onboarding and login, open faq page
@@ -8,7 +7,6 @@ Open app, skipp onboarding and login, open faq page
 Scenario: FAQ screen
 
 Given приложение запущено
-When войти с логином "#userName#" и паролем "#password#"
 Then загружена страница "Booking"
 When ожидаем 7 секунд
 When выполнено нажатие на "MenuButton"

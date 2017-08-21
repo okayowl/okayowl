@@ -1,6 +1,4 @@
 Meta:
-@regressCycle
-@debugMode
 
 Narrative:
 Здесь можно писать доп информацию о сценарии

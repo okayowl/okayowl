@@ -1,6 +1,5 @@
 Meta:
-@smokeCycle
-@debugMode
+@regressCycle
 
 Narrative:
 Open app, skipp onboarding and login, open contact us form
@@ -8,7 +7,6 @@ Open app, skipp onboarding and login, open contact us form
 Scenario: Description (iOS) / Describe the issue you are having (Android)
 
 Given приложение запущено
-When войти с логином "#userName#" и паролем "#password#"
 Then загружена страница "Booking"
 When ожидаем 7 секунд
 When выполнено нажатие на "MenuButton"
