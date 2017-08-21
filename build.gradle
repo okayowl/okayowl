@@ -36,7 +36,12 @@ allure {
 }
 
 dependencies {
-    compile 'ru.colibri:colibri-ui:1.0.7-rc-4'
+    compile ('ru.colibri:colibri-ui:1.0.7'){
+        exclude module: 'selenium-api'
+        exclude module: 'selenium-remote-driver'
+    }
+    compile 'org.seleniumhq.selenium:selenium-api:3.4.0'
+    compile 'org.seleniumhq.selenium:selenium-remote-driver:3.4.0'
 }
 
 distributions {
