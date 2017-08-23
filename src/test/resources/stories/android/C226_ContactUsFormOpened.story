@@ -1,10 +1,10 @@
 Meta:
-@smokeCycle
-
+@regressCycle
+@debugMode
 Narrative:
-Open app, skipp onboarding and login, open faq page
+Open app, skipp onboarding and login, open contact us form, check if contact us page is opened
 
-Scenario: FAQ screen
+Scenario: Contact us page is opened
 
 Given приложение запущено
 Then загружена страница "Booking"
@@ -13,6 +13,6 @@ When выполнено нажатие на "MenuButton"
 Then на экране есть "HelpItemMenu"
 When выполнено нажатие на "HelpItemMenu"
 Then загружена страница "Help"
-When выполнено нажатие на "FaqButton"
-Then загружена страница "Faq"
-Then на экране есть "FaqSearchInput"
+When выполнено нажатие на "ContactUsButton"
+Then на экране есть "DescriptionField"
+Then загружена страница "ContactUs"
