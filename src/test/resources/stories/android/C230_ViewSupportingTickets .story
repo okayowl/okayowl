@@ -1,6 +1,5 @@
 Meta:
 @regressCycle
-@debugMode
 
 Narrative:
 Open app, skipp onboarding and login, open contact us form
