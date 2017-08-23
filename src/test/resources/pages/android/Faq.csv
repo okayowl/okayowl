@@ -2,3 +2,6 @@
 "Name in story","Content-desc","ResourceId","Text","XPath","Flag is specific"
 "FaqSearchInput","","support_search_input","","",""
 "ContactUsIcon","","activity_support_menu_contact","","",""
+"QuestionsButton","","support_category_title","","",""
+"QuestionsSections","","support_section_title","","",""
+"SearchTitle","","row_search_article_title","","",""

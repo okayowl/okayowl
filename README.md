@@ -121,9 +121,14 @@ allure generate target/allure-results -clean
 ПУТЬ_ДО_КОРНЯ_ПРОЕКТА/build/reports/allure-report/index.html#
 ```
 
-
 # Локальный запуск в IDE
 
 1. Запускаем appium в консоли. `appium`
 2. В файлах environmentAndroid/environmentIOS меняем порт с 5566 на 4723
 3. Заходим в Edit Configuration и настраиваем значения в Environment variables устанавливаем значение, например `platform=ios10sim;user=1907306;testType=debugMode;buildVersion=9.1_8361`. Аналогично каждый параметр можно выставаить в табличном виде, нажав на три точки в конце этой строки.
+
+# Usefull scripts
+##### Показать клаву (изменить на нативную)
+```
+adb shell ime set com.android.inputmethod.latin/.LatinIME
+```

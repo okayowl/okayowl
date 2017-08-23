@@ -16,3 +16,7 @@ Then загружена страница "Help"
 When выполнено нажатие на "FaqButton"
 Then загружена страница "Faq"
 Then на экране есть "FaqSearchInput"
+When ожидаем 2 секунд
+When выполнено нажатие на "QuestionsButton"
+Then количество найденных элементов "QuestionsSections" равно "4"
+
