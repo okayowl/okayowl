@@ -19,4 +19,3 @@ Then на экране есть "FaqSearchInput"
 When ожидаем 2 секунд
 When выполнено нажатие на "QuestionsButton"
 Then количество найденных элементов "QuestionsSections" равно "4"
-
