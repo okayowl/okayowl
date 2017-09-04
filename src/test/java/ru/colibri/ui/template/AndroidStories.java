@@ -34,9 +34,9 @@ public class AndroidStories extends AbstractStories {
 
     public AndroidStories() {
         super();
-        System.setProperty(ColibriStartFlags.USER, "autotester");
-        System.setProperty(ColibriStartFlags.PLATFORM, "leecox620"); //leecox620 redmi4
-        System.setProperty(ColibriStartFlags.TEST_TYPE, "debugMode");
+        System.setProperty(ColibriStartFlags.USER, "at01");
+        System.setProperty(ColibriStartFlags.PLATFORM, "htcm8");
+        System.setProperty(ColibriStartFlags.TEST_TYPE, "smoke");
         System.setProperty(ColibriStartFlags.BUILD_VERSION, "8.4.0.7");
     }
 
