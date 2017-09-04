@@ -1,6 +1,5 @@
 Meta:
 @smokeCycle
-@debugMode
 
 Narrative:
 App opens, a new online card adds to payments
