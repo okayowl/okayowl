@@ -2,3 +2,7 @@
 "Name in story","Content-desc","ResourceId","Text","XPath","Flag is specific"
 "MenuButton","Ok","","","",""
 "HelpItemMenu","","","Help","",""
+"LogoutItemMenu","","","Logout","",""
+"PaymentItemMenu","","","Payment","",""
+"RidesItemMenu","","","Rides","",""
+"AboutItemMenu","","","About","",""

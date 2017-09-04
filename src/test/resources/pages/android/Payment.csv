@@ -1,0 +1,8 @@
+"Payment","",".ui.activity.payment.PaymentAddActivity","","",""
+"Name in story","Content-desc","ResourceId","Text","XPath","Flag is specific"
+"EnterCardNumber","","payment_card_number","","",""
+"Expiry","","text_expiry","","",""
+"CVV","","payment_text_cvv","","",""
+"Postcode","","payment_card_postcode","","",""
+"NewCardConfirm","","payment_button_next","","",""
+"ScanCard","","payment_button_scan_card","","",""

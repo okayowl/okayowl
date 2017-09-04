@@ -1,0 +1,6 @@
+"Registration","",".ui.activity.old.OldRegistrationActivity","","",""
+"Name in story","Content-desc","ResourceId","Text","XPath","Flag is specific"
+"RegEmailField","","registration_text_email","","",""
+"RegPassField","","registration_text_password","","",""
+"RegPhoneField","","registration_text_phone","","",""
+"RegNext","","registration_button_next","","",""
